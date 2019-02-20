@@ -2,6 +2,8 @@ import unittest
 from game import Juego
 
 class testJuego(unittest.TestCase):
+    def __init__(self):
+        pass
     def testnombreVentana(self):
         juego=Juego()
         nombre_ventana=juego.set_nombre_ventana
