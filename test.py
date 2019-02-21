@@ -9,6 +9,5 @@ class IntegerArithmenticTestCase(unittest.TestCase):
         self.assertEquals((0 * 10), 0)
         self.assertEquals((5 * 8), 40)
 
-
 if __name__ == '__main__':
     unittest.main()
