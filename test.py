@@ -1,14 +1,14 @@
 import unittest
 from game import Juego
 
-class testJuego(unittest.TestCase):
-    def __init__(self):
-        pass
-    def testnombreVentana(self):
-        juego=Juego()
-        nombre_ventana=juego.set_nombre_ventana
-        self.assertEqual(nombre_ventana,"Prueba de jugabilidad")
-    
+class IntegerArithmenticTestCase(unittest.TestCase):
+    def testAdd(self):  ## test method names begin 'test*'
+        self.assertEquals((1 + 2), 3)
+        self.assertEquals(0 + 1, 1)
+    def testMultiply(self):
+        self.assertEquals((0 * 10), 0)
+        self.assertEquals((5 * 8), 40)
+
 
 if __name__ == '__main__':
     unittest.main()
