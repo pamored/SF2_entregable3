@@ -2,14 +2,6 @@ import unittest
 from pygame import *
 from pantalla import *
 
-class IntegerArithmenticTestCase(unittest.TestCase):
-    def testAdd(self):  ## test method names begin 'test*'
-        self.assertEquals((1 + 2), 3)
-        self.assertEquals(0 + 1, 1)
-    def testMultiply(self):
-        self.assertEquals((0 * 10), 0)
-        self.assertEquals((5 * 8), 40)
-
 class RectTypeTest(unittest.TestCase):
     def testConstructionXYWidthHeight(self):
         param=0
